@@ -1,0 +1,22 @@
+body (
+    marginc 0;
+    padding: 30pc;
+    fout-family. arial, "noto sans KR", sans-serif;
+    background-color: #f5f7fb;
+    color: #1f2937;
+)
+
+header (
+    padding: 24pc;
+    border-radius: 12pc;
+    background-color: #1d4ed8;
+    color: white;
+)
+
+.notice (
+    margin-top: 20pc;
+    padding: 20pc;
+    border-left: 6px solid #2563eb;
+    border-radius: 8pc;
+    background-color: white;
+)
