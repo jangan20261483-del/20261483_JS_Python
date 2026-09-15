@@ -19,4 +19,7 @@ b = str(input("두번째 값 :"))
 ## print(a, "*", b, "=", resurt)
 ## print(a, "%", b, "=", resurt)
 ## print(a, "+", b, "=", resurt)
+
 print(a, "and", b )
+print(a,"and",b,"and",c)
+
