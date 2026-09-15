@@ -11,15 +11,14 @@ b = str(input("두번째 값 :"))
 ## result = a*b
 ## result1 = a/b
 ## result2 = a+b
-## resurt3 = a-b
+## result3 = a-b
 
 ##print(a, )
 
 ## print(result)
-## print(a, "*", b, "=", resurt)
-## print(a, "%", b, "=", resurt)
-## print(a, "+", b, "=", resurt)
+## print(a, "*", b, "=", result)
+## print(a, "%", b, "=", result)
+## print(a, "+", b, "=", result)
 
 print(a, "and", b )
 print(a,"and",b,"and",c)
-
