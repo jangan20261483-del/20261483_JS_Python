@@ -56,42 +56,42 @@
 ##S1, S2, S3 = "100", "100.123", "999999999999999999999999"
 ##print(int(S1) + 1, float(S2) + 1, int(S3) + 1)
 
-money, c500, c100, c50, c10 = 0, 0, 0, 0, 0
-money = int(input("교환할 돈은 얼마?"))
+##money, c500, c100, c50, c10 = 0, 0, 0, 0, 0
+##money = int(input("교환할 돈은 얼마?"))
 
-c500 = money //500
-money = money % 500
+##c500 = money //500
+##money = money % 500
 
-c100 = money // 100
-money = money % 100
+##c100 = money // 100
+##money = money % 100
 
-c50 = money // 50
-money = money % 50
+##c50 = money // 50
+##money = money % 50
 
-c10 = money // 10
-money = money % 10
+##c10 = money // 10
+##money = money % 10
 
-print("500원짜리 : ", c500, "개")
-print("100원짜리 : ", c100, "개")
-print("50원짜리 : ", c50, "개")
-print("10원짜리 : ", c10, "개")
-print("바꾸지 못한 잔돈 ==> ", money, "원")
+##print("500원짜리 : ", c500, "개")
+##print("100원짜리 : ", c100, "개")
+##print("50원짜리 : ", c50, "개")
+##print("10원짜리 : ", c10, "개")
+##print("바꾸지 못한 잔돈 ==> ", money, "원")
 
-money = int(input("교환할 돈은 얼마?"))
+##money = int(input("교환할 돈은 얼마?"))
 
-m10000 = money // 10000
-money = money % 10000
+##m10000 = money // 10000
+##money = money % 10000
 
-m5000 = money // 5000
-money = money % 5000
+##m5000 = money // 5000
+##money = money % 5000
 
-m1000 = money // 1000
-money = money % 1000
+##m1000 = money // 1000
+##money = money % 1000
 
-print("10000원짜리 : ", m10000, "장")
-print("5000원짜리 : ", m5000, "장")
-print("1000원짜리 : ", m1000, "장")
-print("남은 돈 : ", money, "원")
+##print("10000원짜리 : ", m10000, "장")
+##print("5000원짜리 : ", m5000, "장")
+##print("1000원짜리 : ", m1000, "장")
+##print("남은 돈 : ", money, "원")
 
 ##a = 200
 ##if a < 100:
@@ -117,19 +117,45 @@ print("남은 돈 : ", money, "원")
 ##else:
 ##    print("에고~ 50보다 작군요.")
 
-score = int(input("점수를 입력하세요 :"))
+##score = int(input("점수를 입력하세요 :"))
 
-if score >= 90:
-    print("A")
+##if score >= 90:
+##    print("A")
+##else:
+##    if score >= 80:
+##        print("B")
+##    else:
+##        if score >= 70:
+##            print("C")
+##        else:
+##            if score >= 60:
+##                print("D")
+##            else:
+##                print("F")
+##print("학점입니다. ^^")
+
+score = int(input("점수를 입력하세요 :"))
+if score >= 95:
+    print("A+")
+elif score >= 90:
+    print("A0")
+elif score >= 85:
+    print("B+")
+elif score >= 80:
+    print("B0")
+elif score >= 75:
+    print("C+")
+elif score >= 70:
+    print("C0")
+elif score >= 65:
+    print("D+")
+elif score >= 60:
+    print("D0")
 else:
-    if score >= 80:
-        print("B")
-    else:
-        if score >= 70:
-            print("C")
-        else:
-            if score >= 60:
-                print("D")
-            else:
-                print("F")
+    print("F")
+
 print("학점입니다. ^^")
+
+
+
+    
