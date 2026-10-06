@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>지도</title>
+</head>
+
+<body>
+
+    <button onclick="window.open('https://www.google.co.kr/maps/place/%ED%8E%98%EC%96%B4%EB%AA%AC%ED%8A%B8+%EC%95%B0%EB%B0%B0%EC%84%9C%EB%8D%94+%EC%84%9C%EC%9A%B8/data=!3m1!4b1!4m7!3m6!1s0x357c9fddeb4ec305:0xdce3954e5c8847de!5m2!4m1!1i2!16s%2Fg%2F11hkjvmxsp!20s8Q98GWGH%2B3J83JXF?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D', '_blank')">지도열기</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Loops</h1>
+<h2>The do...while Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+let i = 0;
+let sum = 0;
+
+do {
+    sum += i;
+    i += 5;
+}
+while (i <= 100);
+
+document.getElementById("demo").innerHTML =
+    "The number is " + sum;
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Loops</h1>
+<h2>The continue Statement</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+for (let i = 10; i > 0; i--) {
+    if (i === 3) {
+        continue;
+    }
+    text += i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
